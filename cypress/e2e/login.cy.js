@@ -14,7 +14,6 @@ describe('login page test', () => {
         
         cy.get('#yw0')
         .click();
-
         cy.get('.content-header')
         .should('be.visible');
       
